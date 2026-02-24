@@ -5,7 +5,7 @@
 
 ## Features
 - Triggers on S3 object creation events
-- Uses **Pillow** to resize, compress, and generate image variants (JPEG 85%/60%, WEBP, PNG) + 300px thumbnail
+- Uses **Pillow** to resize, compress, and generate image variants
 - Publishes custom CloudWatch metrics (e.g., invocations, errors, duration)
 - Sets up alarms for thresholds like high error rates or long processing times
 - Includes a customizable CloudWatch dashboard for visualization
