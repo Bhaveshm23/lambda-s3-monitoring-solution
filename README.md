@@ -16,6 +16,18 @@ Serverless solution that processes images uploaded to S3 with monitoring via Clo
 - Terraform (for infrastructure)
 - AWS CLI (configured)
 
+## Project Structure
+```
+lambda-s3-monitoring-solution/
+├── lambda/               # Python Lambda function code
+├── scripts/
+│   └── build_layer.sh    # Builds Pillow Lambda layer via Docker
+├── terraform/            # All AWS infrastructure as code (HCL)
+├── deploy.sh             # End-to-end deployment script
+└── README.md
+```
+
+
 ## Deployment
 
 ```bash
