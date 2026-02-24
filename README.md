@@ -27,7 +27,7 @@ cd scripts && ./build_layer.sh && cd ..
 
 # Deploy everything (builds layer, runs Terraform init/plan/apply)
 ./deploy.sh
-
+```
 
 ## How It Works
 
