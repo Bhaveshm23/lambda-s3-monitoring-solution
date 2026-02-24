@@ -1,0 +1,10 @@
+terraform/.terraform
+terraform/.terraform.lock.hcl
+
+terraform/lambda_function.zip
+terraform/pillow_layer.zip
+
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+terraform/tfplan
